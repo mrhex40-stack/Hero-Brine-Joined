@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="herobrine_join"
+version="1.0.0"
+displayName="Hero Brine Join The Game"
+authors="ZI_XU"
+description='''A spooky Herobrine-inspired encounter mod for Minecraft 1.20.1 Forge.'''
+
+[[dependencies.herobrine_join]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.herobrine_join]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
